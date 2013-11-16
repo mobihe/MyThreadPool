@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyThreadPool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\fenghe\LOCALS~1\Temp\RSPD63.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/MyThreadPool.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\fenghe\×ÀÃæ\MyThreadPool\MyThreadPool\WorkerThread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\fenghe\LOCALS~1\Temp\RSPD63.tmp" 
+Creating temporary file "C:\DOCUME~1\fenghe\LOCALS~1\Temp\RSPD64.tmp" with contents
+[
+/nologo /subsystem:console /incremental:yes /pdb:"Debug/MyThreadPool.pdb" /debug /machine:I386 /out:"Debug/MyThreadPool.exe" /pdbtype:sept 
+".\Debug\MYDEBUG.obj"
+".\Debug\processmain.obj"
+".\Debug\TestClass.obj"
+".\Debug\Thread.obj"
+".\Debug\ThreadManage.obj"
+".\Debug\ThreadMutex.obj"
+".\Debug\ThreadPool.obj"
+".\Debug\ThreadPoolException.obj"
+".\Debug\WorkerThread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\fenghe\LOCALS~1\Temp\RSPD64.tmp"
+<h3>Output Window</h3>
+Compiling...
+WorkerThread.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MyThreadPool.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
